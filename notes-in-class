@@ -1,0 +1,15 @@
+Tomcat server - https://www.apache.org
+download v9.062 64-bit windows zip or tar.gz for MAC
+unzip
+go inside bin
+macbook user find the location JDK on your computer - say /Library/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home for windows
+edit startip.sh (MAC) or startup.bat (Windows) 
+on beginning add line - [MAC: JAVA_HOME=\Library\Java...export JAVA_HOME]
+[WINDOWS: set JAVA_HOME=C:\Program Files\Java\jdk1.8.454]
+save startup.bat/sh. And double click
+tomcat hosts web applications, application server
+Classic: web server hosts static files
+double click to launch startup.sh/bat
+in a browser visit http://localhost:8080/examples/websocket/chat.html
+in another browser visit http://localhost:8080/examples/websocket/chat.html
+send message to each other
